@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 from io import BytesIO
 
 # --- 页面配置 ---
-st.set_page_config(page_title="作业提交检查系统", layout="wide", page_icon="📚")
+st.set_page_config(page_title="作业提交检查系统", layout="wide", page_icon="🔥")
 
 
 # --- 核心逻辑函数 ---
@@ -137,5 +137,6 @@ else:
     # 展示示例布局
     st.info(
         "系统功能：\n1. 自动解析复杂格式的花名册\n2. 批量匹配作业文件（支持.py等）\n3. 实时生成可视化饼图\n4. 一键导出补交名单")
+
 
 
