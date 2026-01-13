@@ -138,6 +138,4 @@ else:
     st.info(
         "系统功能：\n1. 自动解析复杂格式的花名册\n2. 批量匹配作业文件（支持.py等）\n3. 实时生成可视化饼图\n4. 一键导出补交名单")
 
-# --- 页脚 ---
-st.markdown("---")
-st.caption("Developed for Python Course Management | 202501学期")
+
